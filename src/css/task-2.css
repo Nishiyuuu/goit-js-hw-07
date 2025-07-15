@@ -1,0 +1,15 @@
+ul,ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-item{
+    margin: 48px 24px;
+}
