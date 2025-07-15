@@ -26,6 +26,14 @@
     margin-top: 8px;
 }
 
+.login-form label input:focus {
+    border: 1px solid #000;
+    outline: none;
+}
+.login-form label input:focus::placeholder{
+    color: transparent;
+}
+
 .login-form button {
     display: flex;
     align-items: center;
@@ -45,12 +53,10 @@
     color: #fff;
     margin-top: 16px;
     cursor: pointer;
-    transition: 250ms ease background, box-shadow;
+    transition: 250ms ease background;
 }
 
 .login-form button:focus,
 .login-form button:hover{
     background: #6c8cff;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(78, 117, 255, 0.3);
 }
